@@ -1,10 +1,14 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "Home page";
+}
+
+<!DOCTYPE html>
 <html>
 <head>
 
-    <title>Dutch Treat</title>
+    <title>Dutch Treat: @ViewBag.Title</title>
 
-    <link href="wwwroot/CSS/site.css" rel="stylesheet" />
+    <link href="~/CSS/site.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -28,10 +32,10 @@
                         </a>
                         <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
                         <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" asp-controller="App" asp-action="Index">Home</a>
+                            <a class="dropdown-item" asp-controller="App" asp-action="Contact">Contact</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" asp-controller="App" asp-action="About">About</a>
                         </div>
                     </li>
                 </ul>
@@ -48,15 +52,19 @@
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
                     <div class="jumbotron">
-                        <h1 class="display-3">Pluralsight Tutorial</h1>
+                        <h1 class="display-3">@ViewBag.Title</h1>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="wwwroot/js/index.js"></script>
+    <section>
+        @RenderBody()
+    </section>
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/index.js"></script>
 </body>
 </html>
 

@@ -15,6 +15,7 @@ namespace DutchTreat
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc(); //.Net Core does not allow optional dependency injection - IT IS MANDATORY!
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -22,14 +23,17 @@ namespace DutchTreat
         {
             if (env.IsDevelopment())
             {
-                app.UseDefaultFiles();
+                app.UseDeveloperExceptionPage();
+            }
+
                 app.UseStaticFiles();
-                app.UseNodeModules(env);
+
                 app.UseMvc(cfg =>
                 {
-                    cfg.MapRoute()
+                    cfg.MapRoute("Default",
+                        "/{controller}/{action}/{id?}",
+                        new { controller = "App", Action = "index" });
                 });
-            }
         }
     }
 }

@@ -12,3 +12,17 @@ C:\Users\jack\Source\Repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTr
 C:\Users\jack\Source\Repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cache
 C:\Users\jack\Source\Repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.dll
 C:\Users\jack\Source\Repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.pdb
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.Views.dll
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.Views.pdb
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.TagHelpers.input.cache
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.TagHelpers.output.cache
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorCoreGenerate.cache
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\index.g.cshtml.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.Views.pdb
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csproj.CopyComplete
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_layout.g.cshtml.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\Contact.g.cshtml.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\About.g.cshtml.cs
+C:\Users\jack\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
